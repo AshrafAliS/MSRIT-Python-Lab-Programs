@@ -7,7 +7,7 @@
 #5) Pop()- to return top of stack element if stack is not empty
 #6) The main module should use functions of the stack module to push and pop elements.
 
-from 6a import stack
+from 7a import stack
 print("Empty Stack")
 print(stack.GetStack())
 print("1.Push\n2.Pop\n3.Is Empty\n4.Top")
