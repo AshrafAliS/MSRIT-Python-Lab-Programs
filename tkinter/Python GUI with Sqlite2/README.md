@@ -47,3 +47,6 @@
   <li><i><b>self.cur.execute("INSERT INTO std VALUES(NULL,?,?,?,?)", (usn,name,mobile,branch))</b></i> we are executing the SQL statements</li>
     <li>Then will will commit the changed</li>
 </ul>
+
+
+visit for addition info about sqlite3 https://docs.python.org/3/library/sqlite3.html
