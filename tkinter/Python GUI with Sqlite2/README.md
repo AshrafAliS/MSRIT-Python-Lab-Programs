@@ -44,6 +44,6 @@
     </ul>
   </li>
   <li>In the <b>insert(self,usn, name, mobile, branch):</b> function we will do sql insert operation</li>
-  <li><u><b>self.cur.execute("INSERT INTO std VALUES(NULL,?,?,?,?)", (usn,name,mobile,branch))</b><u> we are executing the SQL statements</li>
-    <li>Then will will commit the changed<li>
+  <li><i><b>self.cur.execute("INSERT INTO std VALUES(NULL,?,?,?,?)", (usn,name,mobile,branch))</b></i> we are executing the SQL statements</li>
+    <li>Then will will commit the changed</li>
 </ul>
