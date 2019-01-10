@@ -18,5 +18,14 @@
 <hr>
   <li>If the user Entry as <b>self.e1 = Entry(window, textvariable=self.usn)</b> we will assign the entry as <i>StringVar</i> function as <b>self.usn = StringVar()</b> so that we are accepting the Sring value from the Entry(INPUT) field </li>
   <li>for Button <i>b1 = Button(window, text="View all", width=12, command=self.view_command)</i> the command as <b>self.view_command</b> will call a function <i>self.view_command()</i> function</li>
-<li></li>
+  <hr>
+  <li>we have a function called <b>get_selected_row(self,event)</b> which will select the row which we want to access, and we will hide the first index of an array which is ID in the Database</li>
+  <li>
+    <ul>
+      <h2>Insert Operation</h2>
+      <li>we hav e a function called <b>add_command(self)</b> which will do the insert operation</li>
+      <li>in the above function we have <b>database.insert(self.usn.get(), self.name.get(), self.mobile.get(), self.branch.get())</b></li>
+      <li>which will pass the usn, name, mobile,, branch to the <i>database</i><li>
+    </ul>
+  </li>
 </ul>
