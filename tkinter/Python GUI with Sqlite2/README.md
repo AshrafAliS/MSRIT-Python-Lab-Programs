@@ -32,3 +32,15 @@
 
 
 <h2>backend.py</h2>
+<ul>
+  <li>importing <b>sqlite3</b></li>
+  <li>Create the class called <i>Database</i></li>
+  <li>
+    <ul>
+      <li>in __init__ function  <b>self.conn = sqlite3.connect(db)</b> we will connect to the database</li>
+      <li>create a Cursor object and call its execute() method to perform SQL so <b>self.cur = self.conn.cursor()</b></li>
+      <li><b>self.cur.execute("CREATE TABLE IF NOT EXISTS std (id INTEGER PRIMARY KEY, usn TEXT, name TEXT, mobile INTEGER, branch TEXT)")</b> executing through cursor</li>
+      <li>have to save the changes so we will eecute <b>self.conn.commit()</b></li>
+    </ul>
+  </li>
+</ul>
