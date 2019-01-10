@@ -25,7 +25,7 @@
       <h2>Insert Operation</h2>
       <li>we hav e a function called <b>add_command(self)</b> which will do the insert operation</li>
       <li>in the above function we have <b>database.insert(self.usn.get(), self.name.get(), self.mobile.get(), self.branch.get())</b></li>
-      <li>which will pass the usn, name, mobile,, branch to the <i>database</i><li>
+      <li>which will pass the usn, name, mobile,, branch to the <i>database</i></li>
     </ul>
   </li>
 </ul>
