@@ -16,7 +16,7 @@
 <li>we a setting the Window size by <b>self.window.geometry('500x500')</b></li>
 <li>We Will Design a GUI using tkinter</li>
 <hr>
-<li></li>
-<li></li>
+  <li>If the user Entry as <b>self.e1 = Entry(window, textvariable=self.usn)</b> we will assign the entry as <i>StringVar</i> function as <b>self.usn = StringVar()</b> so that we are accepting the Sring value from the Entry(INPUT) field </li>
+  <li>for Button <i>b1 = Button(window, text="View all", width=12, command=self.view_command)</i> the command as <b>self.view_command</b> will call a function <i>self.view_command()</i> function</li>
 <li></li>
 </ul>
