@@ -40,7 +40,10 @@
       <li>in __init__ function  <b>self.conn = sqlite3.connect(db)</b> we will connect to the database</li>
       <li>create a Cursor object and call its execute() method to perform SQL so <b>self.cur = self.conn.cursor()</b></li>
       <li><b>self.cur.execute("CREATE TABLE IF NOT EXISTS std (id INTEGER PRIMARY KEY, usn TEXT, name TEXT, mobile INTEGER, branch TEXT)")</b> executing through cursor</li>
-      <li>have to save the changes so we will eecute <b>self.conn.commit()</b></li>
+      <li>have to save the changes so we will execute <b>self.conn.commit()</b></li>
     </ul>
   </li>
+  <li>In the <b>insert(self,usn, name, mobile, branch):</b> function we will do sql insert operation</li>
+  <li><u><b>self.cur.execute("INSERT INTO std VALUES(NULL,?,?,?,?)", (usn,name,mobile,branch))</b><u> we are executing the SQL statements</li>
+    <li>Then will will commit the changed<li>
 </ul>
