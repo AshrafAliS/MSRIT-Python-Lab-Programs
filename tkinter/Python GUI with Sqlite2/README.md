@@ -1,4 +1,4 @@
-<h1>MSRIT Python Programmng Lab</h1>
+<h1>RIT Python Programmng Lab</h1>
 <h3>Procedure</h3>
 <ul>
   <li>We Will Import <b>tkinter</b> for the GUI     (<i><b>from tkinter import *</b></i>)</li>
