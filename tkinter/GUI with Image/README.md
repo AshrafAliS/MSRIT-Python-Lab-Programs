@@ -1,2 +1,2 @@
-
-![alt text](https://ashrafalis.tech/wp-content/uploads/2018/08/cropped-IMG-20180704-WA0026-1-2-180x180.jpg)
+<h2>Screenshot</h2>
+![alt text](https://github.com/AshrafAliS/MSRIT-Python-Lab-Programs/blob/master/tkinter/GUI%20with%20Image/screenshot.png)
